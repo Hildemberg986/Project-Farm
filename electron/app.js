@@ -8,7 +8,7 @@ function createWindow() {
     height: 800,
   });
 
-  appWindow.loadFile('./dist/angutron/index.html');
+  appWindow.loadFile('../Project-Farm/dist/angutron/index.html');
 
   appWindow.on('closed', function () {
     appWindow = null;
