@@ -9,7 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "electron": "electron .",
-    "electron-build": "ng build && electron ."
+    "angutron": "ng build && electron ."
   },
   "private": true,
   "dependencies": {
