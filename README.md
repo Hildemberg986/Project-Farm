@@ -5,9 +5,9 @@
 npm i
 ```
 #
-#### Run project
+#### Run project Electron
 ```md
-npm run electron-build
+npm run angutron
 ```
 #
 #### Run serve Angula 
