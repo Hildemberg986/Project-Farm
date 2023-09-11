@@ -1,12 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 /* Estilos para o modo claro */
 body {
-    background-color: #ffffff;
-    color: #000000;
-  }
-  
-  /* Estilos para o modo escuro */
+  background-color: rgba(240, 240, 240, 0.8); 
+  backdrop-filter: blur(10px);
+  color: #000000;
+}
+
+/* Estilos para o modo escuro */
 body.dark-mode {
-    background-color: #1a1a1a;
-    color: #ffffff;
-  }
+  background-color: rgba(1, 1, 1, .8);
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+}

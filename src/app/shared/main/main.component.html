@@ -7,11 +7,11 @@
   </head>
 <header>
     <ul>        
-        <li> <a [ngClass]="{'buttonNav-dark': darkMode, 'buttonNav-light': !darkMode}" routerLink="" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">home</a>
+        <li> <a draggable="false" [ngClass]="{'buttonNav-dark': darkMode, 'buttonNav-light': !darkMode}" routerLink="" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">home</a>
         </li>
-        <li><a [ngClass]="{'buttonNav-dark': darkMode, 'buttonNav-light': !darkMode}" routerLink="login" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">login</a>
+        <li><a draggable="false" [ngClass]="{'buttonNav-dark': darkMode, 'buttonNav-light': !darkMode}" routerLink="login" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">login</a>
         </li>
-        <li><a [ngClass]="{'buttonNav-dark': darkMode, 'buttonNav-light': !darkMode}" routerLink="register" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">cadastro</a>
+        <li><a draggable="false" [ngClass]="{'buttonNav-dark': darkMode, 'buttonNav-light': !darkMode}" routerLink="register" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">cadastro</a>
         </li>
         <li>
           <app-dark-button (dadosEnviados)="receberDados($event)"></app-dark-button>
