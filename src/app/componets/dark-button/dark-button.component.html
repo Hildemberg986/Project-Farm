@@ -1,6 +1,8 @@
-<input type="checkbox" class="checkbox" id="chk" (click)="toggleDarkMode()"/>
-<label [ngClass]="darkMode ? '' : ''" for="chk">
+<div>
+  <input type="checkbox" class="checkbox" id="chk" (click)="toggleDarkMode()" />
+  <label [ngClass]="darkMode ? 'label-dark' : 'label-light'" for="chk">
     <i class="fas fa-moon"></i>
-    <i class="fas fa-sun"></i>
+    <span>🌤️</span>
     <div class="ball"></div>
-</label>
+  </label>
+</div>
